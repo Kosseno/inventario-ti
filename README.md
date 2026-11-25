@@ -66,6 +66,7 @@ Ejecutando directamente con Python:
   ```
 (Tambien funciona con `python3 inventario.py`).
 La aplicacion inicia protegida con `curses.wrapper()`, garantizando que la terminal recupere su estado y cursor normal al salir con `q` o ante cualquier interrupcion.
+
 6. Guia de uso
 Controles generales de la interfaz
 Flechas `Arriba` / `Abajo`: Desplazarse por las opciones del menu principal.
@@ -73,15 +74,23 @@ Flechas `Arriba` / `Abajo`: Desplazarse por las opciones del menu principal.
 `q` / `ESC`: Regresar al menu anterior o salir del sistema de forma segura.
 Redimensionado (`KEY\_RESIZE`): Las ventanas (`curses.newwin`) se adaptan automaticamente si cambia el tamano de la ventana de terminal (tamano minimo recomendado: `62x16`).
 Modulos disponibles
+
 Opcion	Modulo	Acciones y atajos principales
-1	Activos	`\[R]` Registrar equipo, `\[E]` Editar ficha completa, `\[B]` Dar de baja.
-2	Asignaciones	`\[A]` Asignar a empleado, `\[D]` Devolver a bodega/reparacion, `\[H]` Ver historial auditable.
-3	Licencias	`\[N]` Registrar software, `\[A]` Asignar puesto (alerta si excede), `\[X]` Revocar puesto.
-4	Busquedas	`\[1]` Buscar por numero de serie, `\[2]` Buscar por tipo, `\[3]` Vista "Que tiene este empleado?".
-5	Reportes	Visualiza garantias por vencer (<= 30 dias), depreciacion lineal a 4 anos y `\[X]` Exportar a CSV.
-6	Auditoria	`\[V]` Marcar verificacion fisica, `\[I]` Importar activos desde CSV, `\[S]` Detectar series duplicadas.
+   1	Activos	`\[R]` Registrar equipo, `\[E]` Editar ficha completa, `\[B]` Dar de baja.
+
+   2	Asignaciones	`\[A]` Asignar a empleado, `\[D]` Devolver a bodega/reparacion, `\[H]` Ver historial auditable.
+
+   3	Licencias	`\[N]` Registrar software, `\[A]` Asignar puesto (alerta si excede), `\[X]` Revocar puesto.
+
+   4	Busquedas	`\[1]` Buscar por numero de serie, `\[2]` Buscar por tipo, `\[3]` Vista "Que tiene este empleado?".
+
+   5	Reportes	Visualiza garantias por vencer (<= 30 dias), depreciacion lineal a 4 anos y `\[X]` Exportar a CSV.
+
+   6	Auditoria	`\[V]` Marcar verificacion fisica, `\[I]` Importar activos desde CSV, `\[S]` Detectar series duplicadas.
+
 Capturas de pantalla / Demostracion
 (Agregar aqui las capturas de pantalla del menu principal, vista por empleado y reporte de alertas, o el enlace de grabacion con `asciinema`).
+
 7. Pruebas automaticas y calidad de codigo
 Con el entorno virtual activado (`source .venv/bin/activate`), ejecuta las validaciones de calidad y la suite de 12 pruebas unitarias sobre la logica de negocio:
 ```bash
