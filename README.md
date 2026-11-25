@@ -26,7 +26,8 @@ Para programarlo automaticamente todos los lunes a las 8:00 AM, abre el programa
 ```cron
 0 8 \* \* 1 cd /home/jasson/inventario-ti \&\& /usr/bin/python3 inventario.py --alertas
 ```
-4. Instalacion y configuracion del entorno
+## 4. Instalacion y configuracion del entorno
+
 Requisitos previos (Ubuntu / WSL2)
 Sistema operativo: Linux (Ubuntu Server, Ubuntu Desktop o WSL2 en Windows).
 Python: Version 3.10 o superior (el programa utiliza unicamente la libreria estandar de Python).
@@ -54,7 +55,8 @@ Asignar permisos de ejecucion al script de arranque:
 ```bash
    chmod +x run.sh
    ```
-5. Como arrancar el sistema
+## 5. Como arrancar el sistema
+
 El sistema puede iniciarse mediante cualquiera de los siguientes comandos desde la raiz del proyecto:
 Usando el script de arranque:
 ```bash
@@ -67,7 +69,8 @@ Ejecutando directamente con Python:
 (Tambien funciona con `python3 inventario.py`).
 La aplicacion inicia protegida con `curses.wrapper()`, garantizando que la terminal recupere su estado y cursor normal al salir con `q` o ante cualquier interrupcion.
 
-6. Guia de uso
+## 6. Guia de uso
+
 Controles generales de la interfaz
 Flechas `Arriba` / `Abajo`: Desplazarse por las opciones del menu principal.
 `Enter`: Ingresar al modulo seleccionado o confirmar datos en formularios.
@@ -91,13 +94,15 @@ Opcion	Modulo	Acciones y atajos principales
 Capturas de pantalla / Demostracion
 (Agregar aqui las capturas de pantalla del menu principal, vista por empleado y reporte de alertas, o el enlace de grabacion con `asciinema`).
 
-7. Pruebas automaticas y calidad de codigo
+## 7. Pruebas automaticas y calidad de codigo
+
 Con el entorno virtual activado (`source .venv/bin/activate`), ejecuta las validaciones de calidad y la suite de 12 pruebas unitarias sobre la logica de negocio:
 ```bash
 ruff check .
 pytest -v
 ```
-8. Estructura del proyecto
+
+## 8. Estructura del proyecto
 ```text
 inventario-ti/
 ├── data/                     # Almacenamiento JSON, reportes CSV y alertas de cron
