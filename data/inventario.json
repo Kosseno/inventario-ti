@@ -1,0 +1,269 @@
+{
+  "activos": [
+    {
+      "codigo": "ACT-001",
+      "tipo": "Laptop",
+      "marca": "Lenovo",
+      "modelo": "ThinkPad T14 Gen 4",
+      "numero_serie": "SN-LEN-8841",
+      "fecha_compra": "2024-11-23",
+      "fecha_garantia": "2026-12-05",
+      "costo": 1350.0,
+      "estado": "en uso",
+      "empleado_asignado": "Carlos Mendoza",
+      "verificado_auditoria": true,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (bodega)"
+        },
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ASIGNACION",
+          "empleado": "Carlos Mendoza",
+          "usuario_sistema": "enrique",
+          "detalle": "Entrega de equipo"
+        },
+        {
+          "fecha": "2026-11-23 23:54:00",
+          "accion": "AUDITORIA",
+          "empleado": "Carlos Mendoza",
+          "usuario_sistema": "enrique",
+          "detalle": "Verificacion fisica = True"
+        }
+      ]
+    },
+    {
+      "codigo": "ACT-002",
+      "tipo": "Monitor",
+      "marca": "Dell",
+      "modelo": "UltraSharp U2723QE",
+      "numero_serie": "SN-DEL-3320",
+      "fecha_compra": "2025-11-23",
+      "fecha_garantia": "2027-07-21",
+      "costo": 520.0,
+      "estado": "en uso",
+      "empleado_asignado": "Carlos Mendoza",
+      "verificado_auditoria": false,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (bodega)"
+        },
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ASIGNACION",
+          "empleado": "Carlos Mendoza",
+          "usuario_sistema": "enrique",
+          "detalle": "Entrega de equipo"
+        }
+      ]
+    },
+    {
+      "codigo": "ACT-003",
+      "tipo": "Laptop",
+      "marca": "Apple",
+      "modelo": "MacBook Pro 14 M3",
+      "numero_serie": "SN-APL-9910",
+      "fecha_compra": "2026-05-27",
+      "fecha_garantia": "2028-05-16",
+      "costo": 2100.0,
+      "estado": "en uso",
+      "empleado_asignado": "Ana Sofia Reyes",
+      "verificado_auditoria": true,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (bodega)"
+        },
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ASIGNACION",
+          "empleado": "Ana Sofia Reyes",
+          "usuario_sistema": "enrique",
+          "detalle": "Entrega de equipo"
+        },
+        {
+          "fecha": "2026-11-23 23:54:00",
+          "accion": "AUDITORIA",
+          "empleado": "Ana Sofia Reyes",
+          "usuario_sistema": "enrique",
+          "detalle": "Verificacion fisica = True"
+        }
+      ]
+    },
+    {
+      "codigo": "ACT-004",
+      "tipo": "Servidor",
+      "marca": "Dell",
+      "modelo": "PowerEdge R750",
+      "numero_serie": "SN-SRV-1001",
+      "fecha_compra": "2023-11-24",
+      "fecha_garantia": "2026-11-18",
+      "costo": 4800.0,
+      "estado": "bodega",
+      "empleado_asignado": null,
+      "verificado_auditoria": false,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (bodega)"
+        }
+      ]
+    },
+    {
+      "codigo": "ACT-005",
+      "tipo": "Laptop",
+      "marca": "HP",
+      "modelo": "EliteBook 840 G10",
+      "numero_serie": "SN-HP-5512",
+      "fecha_compra": "2025-10-19",
+      "fecha_garantia": "2026-12-18",
+      "costo": 1180.0,
+      "estado": "en uso",
+      "empleado_asignado": "Elena Morales",
+      "verificado_auditoria": false,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (bodega)"
+        },
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ASIGNACION",
+          "empleado": "Luis Fernando Paz",
+          "usuario_sistema": "enrique",
+          "detalle": "Entrega de equipo"
+        },
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "DEVOLUCION",
+          "empleado": "Luis Fernando Paz",
+          "usuario_sistema": "enrique",
+          "detalle": "Cambio de area -> bodega"
+        },
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ASIGNACION",
+          "empleado": "Elena Morales",
+          "usuario_sistema": "enrique",
+          "detalle": "Entrega de equipo"
+        }
+      ]
+    },
+    {
+      "codigo": "ACT-006",
+      "tipo": "Switch",
+      "marca": "Cisco",
+      "modelo": "Catalyst 2960-X",
+      "numero_serie": "SN-CSC-7740",
+      "fecha_compra": "2024-06-06",
+      "fecha_garantia": "2027-03-23",
+      "costo": 1600.0,
+      "estado": "reparacion",
+      "empleado_asignado": null,
+      "verificado_auditoria": false,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (reparacion)"
+        }
+      ]
+    },
+    {
+      "codigo": "ACT-007",
+      "tipo": "Laptop",
+      "marca": "Asus",
+      "modelo": "ZenBook 14",
+      "numero_serie": "SN-ASU-2201",
+      "fecha_compra": "2022-07-07",
+      "fecha_garantia": "2025-07-11",
+      "costo": 980.0,
+      "estado": "baja",
+      "empleado_asignado": null,
+      "verificado_auditoria": false,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (bodega)"
+        },
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "BAJA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Tarjeta madre danada fuera de garantia"
+        }
+      ]
+    },
+    {
+      "codigo": "ACT-008",
+      "tipo": "Monitor",
+      "marca": "Dell",
+      "modelo": "UltraSharp U2723QE",
+      "numero_serie": "SN-DEL-3320",
+      "fecha_compra": "2026-08-15",
+      "fecha_garantia": "2028-07-15",
+      "costo": 520.0,
+      "estado": "bodega",
+      "empleado_asignado": null,
+      "verificado_auditoria": false,
+      "historial": [
+        {
+          "fecha": "2026-11-23 23:53:59",
+          "accion": "ALTA",
+          "empleado": "N/A",
+          "usuario_sistema": "enrique",
+          "detalle": "Registro inicial (bodega)"
+        }
+      ]
+    }
+  ],
+  "licencias": [
+    {
+      "codigo": "LIC-01",
+      "software": "Microsoft 365 Business",
+      "puestos_comprados": 10,
+      "fecha_vencimiento": "2027-06-11",
+      "costo_unitario": 15.0,
+      "empleados_asignados": [
+        "Carlos Mendoza",
+        "Ana Sofia Reyes",
+        "Elena Morales"
+      ]
+    },
+    {
+      "codigo": "LIC-02",
+      "software": "JetBrains All Products",
+      "puestos_comprados": 2,
+      "fecha_vencimiento": "2027-02-21",
+      "costo_unitario": 25.0,
+      "empleados_asignados": [
+        "Carlos Mendoza",
+        "Ana Sofia Reyes",
+        "Luis Fernando Paz"
+      ]
+    }
+  ]
+}
