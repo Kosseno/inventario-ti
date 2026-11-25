@@ -1,0 +1,9 @@
+codigo,tipo,marca_modelo,estado,fecha_compra,costo_original,depreciacion_acumulada,valor_actual
+ACT-001,Laptop,Lenovo ThinkPad T14 Gen 4,en uso,2024-11-23,1350.0,674.54,675.46
+ACT-002,Monitor,Dell UltraSharp U2723QE,en uso,2025-11-23,520.0,129.91,390.09
+ACT-003,Laptop,Apple MacBook Pro 14 M3,en uso,2026-05-27,2100.0,258.73,1841.27
+ACT-004,Servidor,Dell PowerEdge R750,bodega,2023-11-24,4800.0,3597.54,1202.46
+ACT-005,Laptop,HP EliteBook 840 G10,en uso,2025-10-19,1180.0,323.07,856.93
+ACT-006,Switch,Cisco Catalyst 2960-X,reparación,2024-06-06,1600.0,985.63,614.37
+ACT-007,Laptop,Asus ZenBook 14,baja,2022-07-07,980.0,980.0,0.0
+ACT-008,Monitor,Dell UltraSharp U2723QE,bodega,2026-08-15,520.0,35.59,484.41

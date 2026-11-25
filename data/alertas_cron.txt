@@ -1,0 +1,9 @@
+=== REPORTE AUTOMÁTICO DE ALERTAS TI (2026-11-23 23:54:15) ===
+
+[1] GARANTÍAS POR VENCER EN <= 30 DÍAS (3):
+  - ACT-004 | Servidor Dell PowerEdge R750 (S/N: SN-SRV-1001) | 2026-11-18 (VENCIDA hace 5 días) | Resp: En bodega/taller
+  - ACT-001 | Laptop Lenovo ThinkPad T14 Gen 4 (S/N: SN-LEN-8841) | 2026-12-05 (Vence en 12 días) | Resp: Carlos Mendoza
+  - ACT-005 | Laptop HP EliteBook 840 G10 (S/N: SN-HP-5512) | 2026-12-18 (Vence en 25 días) | Resp: Elena Morales
+
+[2] LICENCIAS DE SOFTWARE EXCEDIDAS (1):
+  - LIC-02 | JetBrains All Products: 3/2 puestos (EXCESO DE 1)
