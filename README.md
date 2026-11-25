@@ -15,3 +15,9 @@ Este sistema de terminal construido en **Python** con **`curses`** sobre **Linux
 - **Control de garantias y licencias:** Alertas de garantias por vencer en <= 30 dias y deteccion de licencias con puestos asignados mayores a los comprados.
 - **Consultas y reportes:** Busqueda por serie/tipo, vista *"Que tiene asignado este empleado?"* y calculo de depreciacion lineal exportable a CSV.
 - **Funciones de auditoria:** Importacion masiva desde CSV, verificacion fisica de inventario y deteccion de numeros de serie duplicados.
+
+## 3. Automatizacion de alertas con Cron (`--alertas`)
+El modo sin interfaz grafica genera `data/alertas_cron.txt` con garantias proximas a vencer y licencias excedidas sin inicializar `curses`:
+
+```bash
+python3 inventario.py --alertas
